@@ -1,0 +1,3 @@
+1SELECT tweet_id
+2FROM Tweets
+3WHERE CHARACTER_LENGTH(content) > 15;
