@@ -1,4 +1,4 @@
-SELECT p.product_name, s.year, s.price
-FROM Sales s
-LEFT JOIN Product p
-ON s.product_id = p.product_id
+1SELECT product_name, year, price
+2FROM Sales s
+3LEFT JOIN Product p
+4ON s.product_id = p.product_id;
